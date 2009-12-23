@@ -8,13 +8,15 @@ Jadi, kalau bicara [Aka][3], berarti di pikiran kita akan ingat *Merah*, otomati
 
 # Cara membangun dokumentasi [AkaTime][3] #
 
-Kita bisa menggunakan tool [rake][4]. Caranya masuklah ke direktori [aka_time][3], lalu ketik :
+Kita bisa menggunakan tool yardoc. Caranya masuklah ke direktori [aka_time][3], lalu ketik :
 
-    rake rdoc <ENTER>
+    yardoc -o documentation<ENTER>
 
-selanjutnya tinggal membuka file 
+selanjutnya tinggal membuka file
 
-    rdoc/index.html 
+* di Mac OS X, caranya `open documentation/index.html`
+* di Linux, caranya `firefox documentation/index.html`
+* di Windows, caranya 'klik dua kali documentation/index.html`
 
 lewat browser
 
@@ -92,7 +94,7 @@ di template view haml, kita tinggal menambahkan code sebagai berikut:
       %li= "Isi: #{h @artikel.isi}"
       %li= "Dibuat kapan?: #{@artikel.created_at.indo}"
 
-# PUISI / LAGU AkaTime #
+# PUISI / LAGU [AkaTime][3] #
 
     AkaTaaaaim...
     Ada Aka, Ada Merah...
