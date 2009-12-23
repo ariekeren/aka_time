@@ -112,6 +112,6 @@ di mailto:id-ruby@yahoogroups.com
 
 = License
 
-AkaTime is available under an MIT-style license.
-
-:include: MIT-LICENSE
+AkaTime comes with ABSOLUTELY NO WARRANTY;
+AkaTime is Free Software--Free as in Freedom--so you can redistribute copies
+of AkaTime and modify it. See LICENSE and COPYING
