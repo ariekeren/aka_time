@@ -16,7 +16,7 @@ selanjutnya tinggal membuka file
 
 * di Mac OS X, caranya `open documentation/index.html`
 * di Linux, caranya `firefox documentation/index.html`
-* di Windows, caranya 'klik dua kali documentation/index.html`
+* di Windows, caranya `klik dua kali documentation/index.html`
 
 lewat browser
 

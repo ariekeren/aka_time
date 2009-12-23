@@ -216,8 +216,7 @@ class Time
   # metode indo inilah yang paling sering dipakai, jadi tidak perlu lagi bila ada 
   # objek Time menyebutkannya dengan cara "cryptic" seperti : 
   #   Time.now.strftime("%A, %d %B %Y %X")
-  # ataupun begini (contoh bila pemakaian dikombinasikan dengan ORM 
-  # {ActiveRecord}[http://rubyforge.org/projects/activerecord])
+  # ataupun begini (contoh bila dengan ActiveRecord)
   #   @objek_tabel.created_at.strftime("%A, %d %B %Y %X")
   # yang hasilnya adalah dalam bahasa Inggris, lalu diterjemahkan lagi ke 
   # bahasa Indonesia, karena sekarang cukup dengan ini saja :
@@ -231,9 +230,7 @@ class Time
   # This indo method is very often used, so we don't have to "verbosely" say Time
   # object in "a cryptic way" like this:
   #   Time.now.strftime("%A, %d %B %Y %X")
-  # or like this (combined with 
-  # {ActiveRecord}[http://rubyforge.org/projects/activerecord] 
-  # ORM)
+  # or like this (combined with ActiveRecord ORM)
   #   @object.created_at.strftime("%A, %d %B %Y %X")
   # which return a well formatted Time in English, then we have to translate it 
   # again in Bahasa Indonesia. Now you can simply use this:
