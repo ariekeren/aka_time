@@ -33,8 +33,43 @@ Cara menggunakan [AkaTime][3], juga mudah, yaitu dengan perintah *require* seper
     require 'rubygems'
     require 'aka_time'
 
+# Tutorial #
+
+# Kontak #
+
+* [Ketemu Arie][8]
+* [Project][3]
+* [Documentation][3]
+* [Bugs][6]
+* [Email][6]
+* [Blog ArieKeren][7]
+
+Pencipta [AkaTime][3] bisa dihubungi lewat [email][8]. Silakan jangan malu-malu kucing untuk melayangkan feedback berupa 
+
+* Request ingin kenalan (FYI [ArieKeren][1] suka banget punya banyak kenalan), 
+* Request minta bikinkan library lagi (baik yang free software maupun yang berbayar alias bisnis/proyek-proyek gitu), 
+* Request minta bikinkan software (baik yang free software maupun yang berbayar), 
+* Feedback konstruktif
+
+Anda justru malah akan disuguhi terima kasih yang sangat dari [ArieKeren][1] karena sudah meluangkan waktu buat perhatiannya.
+
+Malu Bertanya Sesat ke Google.
+
+Bila ingin membantu dokumentasi juga boleh banget, silakan saja join jadi Documenter [AkaTime][3] dengan tulisan yang gampang dimengerti dengan tujuan [Rubyist Indonesia][2] memakai library AkaTime ini dengan intuitif dan sangat gampang.
+
+Kalau mau konsultasi, tentang dunia [Ruby][2], atau dunia Rails, silakan lewat [milis Ruby User Group Indonesia][9], 
+[email saja][6], [arsip milis][9]
+
+# License #
+
+AkaTime comes with ABSOLUTELY NO WARRANTY; AkaTime is Free Software--Free as in Freedom--so you can redistribute copies of AkaTime and modify it. See LICENSE and COPYING
+
   [1]: http://ariekusumaatmaja.wordpress.com/
   [2]: http://www.ruby-lang.org/id
   [3]: http://github.com/ariekeren/aka_time
   [4]: http://rake.rubyforge.org/
   [5]: http://gemcutter.org/gems/aka_time
+  [6]: mailto:id-ruby@yahoogroups.com
+  [7]: http://ariekusumaatmaja.wordpress.com/2007/04/10/aka_time-100-rilis-ariekeren-time-indonesia-rubygems/
+  [8]: http://ariekusumaatmaja.wordpress.com/contact-arie
+  [9]: http://groups.yahoo.com/groups/id-ruby
