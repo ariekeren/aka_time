@@ -35,6 +35,81 @@ Cara menggunakan [AkaTime][3], juga mudah, yaitu dengan perintah *require* seper
 
 # Tutorial #
 
+    sayang:~ arie$ irb
+    irb(main):001:0> require 'rubygems'
+    => true
+    irb(main):002:0> require 'aka_time'
+    => true
+    irb(main):004:0> waktu = Time.mktime(2007, 4, 8, 14, 8, 45)
+    => Sun Apr 08 14:08:45 +0700 2007
+    irb(main):005:0> waktu.indo
+    => "Minggu, 08 April 2007 14:08:45"
+    irb(main):006:0> waktu.hari
+    => "Minggu"
+    irb(main):007:0> waktu.tanggal
+    => "08"
+    irb(main):008:0> waktu.bulan
+    => "April"
+    irb(main):009:0> waktu.bln
+    => "Apr"
+    irb(main):010:0> waktu.tahun
+    => "2007"
+    irb(main):011:0> waktu.thn
+    => "07"
+    irb(main):012:0> waktu.hari
+    => "Minggu"
+    irb(main):013:0> waktu.hr
+    => "Min"
+    irb(main):014:0>       
+
+Cara pemakaian di [Rails][10] juga sangat sederhana, misalkan kita punya `Model artikel.rb`, yang mana `kelas Artikel` punya field-field sebagai berikut:
+
+* id
+* judul
+* isi
+* created_at
+
+### Langkah pertama ###
+
+Sertakan code ini di `config/environment.rb` rails project Anda
+
+    config.gem 'aka_time'
+
+### Langkah kedua ###
+
+Ketika melakukan query select atau yang biasa dilakukan oleh Railers dengan menggunakan `ActiveRecord find`.
+
+Jadi, misalkan, kita juga punya `controller demo_controller.rb`, dalam `file demo_controller.rb`, kita punya `metode show`, sebagai berikut:
+
+    def show
+      @artikel = Artikel.find(params[:id])
+    end
+
+di template view haml, kita tinggal menambahkan code sebagai berikut:
+
+    %ul
+      %li= "Judul: #{h @artikel.judul}"
+      %li= "Isi: #{h @artikel.isi}"
+      %li= "Dibuat kapan?: #{@artikel.created_at.indo}"
+
+# PUISI / LAGU AkaTime #
+
+    AkaTaaaaim...
+    Ada Aka, Ada Merah...
+    Kalau Merah, berarti Ruby...
+    
+    AkaTaaaaim...
+    Inget Aka, Inget ArieKeren...
+    Kalau Aka, berarti Arie...
+    
+    Silaaau...
+    Ada Merah, Ada Aka, Ada ArieKeren...
+    Hey! Indonesia Merah! 
+    Merah Indonesia Lambang Berani... 
+    Merah Ruby Indonesia Lambang Elegan...
+
+Ya, silakan buat yang biasa main gitar, main piano/organ, main angklung, kalau ada yang mau menyanyikan dan merekam untuk disebar-sebarkan, silakan dengan senang hati :-) [AkaTime][3] ... Waktunya [AkaTime][3] ...
+
 # Kontak #
 
 * [Ketemu Arie][8]
@@ -73,3 +148,4 @@ AkaTime comes with ABSOLUTELY NO WARRANTY; AkaTime is Free Software--Free as in 
   [7]: http://ariekusumaatmaja.wordpress.com/2007/04/10/aka_time-100-rilis-ariekeren-time-indonesia-rubygems/
   [8]: http://ariekusumaatmaja.wordpress.com/contact-arie
   [9]: http://groups.yahoo.com/groups/id-ruby
+  [10]: http://www.rubyonrails.com

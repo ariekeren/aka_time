@@ -1,10 +1,3 @@
-#--
-# Copyright (c) 2007 ArieKeren <ariekusumaatmaja@gmail.com>
-# http://ariekusumaatmaja.wordpress.com
-# Recommend me! 
-# http://www.workingwithrails.com/person/4899-arie-kusuma-atmaja
-#++
-
 class Time
 
   # Nama-nama bulan dalam Bahasa Indonesia

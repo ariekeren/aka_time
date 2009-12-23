@@ -1,11 +1,14 @@
-= AkaTime Changelog
+== Version 1.0.6
+
+* moved to github
+* changed LICENSE to be GPL
 
 == Version 1.0.5
 
 * jeda
 * lalu 
 * time_ago_in_words method helper
-* New methods credit goes to @gozali and @detik
+* New methods credit goes to gozali and detik
 
 == Version 1.0.2
 
