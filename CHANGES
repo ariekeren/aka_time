@@ -1,0 +1,28 @@
+= AkaTime Changelog
+
+== Version 1.0.5
+
+* jeda
+* lalu 
+* time_ago_in_words method helper
+* New methods credit goes to @gozali and @detik
+
+== Version 1.0.2
+
+* dokumentasi rdoc juga menjelaskan penggunaan metode kelas bawaan Time 
+  supaya para pengguna yang ingin menggunakan set lokal juga lebih 
+  gampang diracun ;-)
+* testing diperlihatkan dgn gamblang bahwa instan objek berupa fixnum dan 
+  satunya lagi buatan aka_time berupa string.
+* ditambahkan metode kelas Time berupa indonesia saja indo, id, to_id, 
+  to_indonesia, to_indo
+
+== Version 1.0.1
+
+* Rakefile lebih deskriptif
+* svn propset disesuaikan ke svn rubyforge.org
+* dokumentasi rdoc source code nya inline
+
+== Version 1.0.0
+
+* Pindahan dari svn sayang ke svn rubyforge.org
