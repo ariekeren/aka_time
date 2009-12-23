@@ -1,7 +1,7 @@
 = AkaTime - {Arie Kusuma Atmaja}[http://ariekusumaatmaja.wordpress.com/] Time
 
 Aka, diambil dari Bahasa Jepang, Aka(i), yang artinya "merah". Ya, semerah 
-perhiasan batu {ruby}[http://www.ruby-lang.org]. Aka juga bisa diartikan singkatan dari nama 
+perhiasan batu {ruby}[http://www.ruby-lang.org/id]. Aka juga bisa diartikan singkatan dari nama 
 {ArieKeren}[http://ariekusumaatmaja.wordpress.com/] 
 sendiri, yaitu {Arie Kusuma Atmaja}[http://ariekusumaatmaja.wordpress.com/]. 
 
@@ -11,7 +11,7 @@ otomatis kita akan ingat *Ruby*, dan kita akan ingat
 
 AkaTime dirilis ke publik karena melihat kebutuhan Republik Ruby Indonesia 
 akan bentuk format waktu sesuai selera yang diinginkan dengan cara yang 
-khas seperti spesialnya filosofi {Ruby}[http://www.ruby-lang.org], yaitu 
+khas seperti spesialnya filosofi {Ruby}[http://www.ruby-lang.org/id], yaitu 
 dengan cara yang intuitif, bisa bergerak cepat, produktif, tidak cyptic.
 
 
